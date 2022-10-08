@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/cycle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_baseline_pedal_bike_24" />
+
+    <ImageButton
+        android:id="@+id/scooter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#ffd60a"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_baseline_bike_scooter_24" />
+
+    <ImageButton
+        android:id="@+id/ebike"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#0077b6"
+        android:background="@drawable/ic_baseline_electric_bike_24" />
+
+</LinearLayout>
